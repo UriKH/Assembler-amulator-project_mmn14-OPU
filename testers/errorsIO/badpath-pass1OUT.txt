@@ -1,0 +1,55 @@
+error [line 4]: wrong number of operands for the operation "sub"
+		 this operation demandes exactly 2 operands
+error [line 6]: extranous comma after the last operand in the line
+error [line 6]: wrong number of operands for the operation "sub"
+		 this operation demandes exactly 2 operands
+error [line 8]: wrong number of operands for the operation "red"
+		 this operation demandes exactly 1 operands
+error [line 12]: the addressing method for the target operand is not valid
+error [line 16]: the addressing method for the target operand is not valid
+error [line 18]: invalid operation (instruction command) "and" name
+error [line 20]: invalid operation (instruction command) "jSr" name
+error [line 22]: between parameters must seperate one comma only
+error [line 24]: wrong number of operands for the operation "add"
+		 this operation demandes exactly 2 operands
+		 [note : to an instruction command can be sent at most: a source and a target operand]
+error [line 26]: between parameters must seperate a comma
+error [line 26]: wrong number of operands for the operation "prn"
+		 this operation demandes exactly 1 operands
+error [line 28]: label "48" must start with an alphabetic character
+error [line 30]: after an addressing method sign must come an operand (without spaces in between)
+error [line 32]: in the immediate addressing method can be writen only the numericl characters
+		 (and '+' or '-' in the start of the number)
+error [line 34]: label "Next" has been already defined
+error [line 38]: the addressing method for the source operand is not valid
+error [line 40]: the addressing method for the source operand is not valid
+error [line 42]: wrong number of operands for the operation "stop"
+		 this operation demandes exactly 0 operands
+error [line 48]: between parameters must seperate a comma
+error [line 56]: between parameters must seperate one comma only
+error [line 58]: extranous comma after the last operand in the line
+error [line 60]: arguments for the directive ".data" can be writen only in numericl characters
+		 (and '+' or '-' in the start of the number)
+error [line 62]: cannot hold uninteger numbers
+error [line 64]: arguments for the directive ".data" can be writen only in numericl characters
+		 (and '+' or '-' in the start of the number)
+error [line 66]: label must not be named as an instruction
+error [line 68]: label should not be named as a register
+error [line 70]: label "DATA1" has been already defined
+error [line 74]: label "1DATA:" must start with an alphabetic character
+warning [line 76]: the label "X" label before the directive ".entry" is meaningless (ignored)
+error [line 80]: local label "Start" cannot be redeclared as external
+warning [line 82]: the label "Y" before the directive ".extern" is meaningless (ignored)
+error [line 88]: invalid operation (instruction command) "DATA2" name
+error [line 90]: directive command ".DATA" is not valid.
+		 Command must be: .data / .string / .entry / .extern
+error [line 94]: the argument of the directive ".string" must start and end with a quotation mark
+error [line 96]: the directive ".string" gets one string only
+error [line 100]: the maximum label length is 31 characters
+error [line 102]: missing argument after the directive ".data"
+error [line 104]: missing argument after the directive ".entry"
+error [line 106]: directive command ".invalid" is not valid.
+		 Command must be: .data / .string / .entry / .extern
+error [line 110]: wrong number of operands for the operation "rts"
+		 this operation demandes exactly 0 operands
+could not compile the Assembly file: "badpath-pass1.as"

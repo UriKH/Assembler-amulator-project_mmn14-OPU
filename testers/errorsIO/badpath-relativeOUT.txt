@@ -1,0 +1,10 @@
+error [line 6]: the addressing method for the source operand is not valid
+error [line 8]: the addressing method for the target operand is not valid
+error [line 10]: the addressing method for the target operand is not valid
+error [line 12]: label "%start" must start with an alphabetic character
+error [line 14]: after an addressing method sign must come an operand (without spaces in between)
+error [line 16]: label "42" must start with an alphabetic character
+error [line 18]: label "5xy" must start with an alphabetic character
+error [line 20]: wrong number of operands for the operation "stop"
+		 this operation demandes exactly 0 operands
+could not compile the Assembly file: "badpath-relative.as"

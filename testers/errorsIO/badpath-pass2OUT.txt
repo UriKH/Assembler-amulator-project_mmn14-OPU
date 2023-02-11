@@ -1,0 +1,10 @@
+warning [line 2]: the label "X" before the directive ".extern" is meaningless (ignored)
+warning [line 4]: the label "Y" label before the directive ".entry" is meaningless (ignored)
+error [line 10]: label operand "Q" was not defined
+error [line 12]: label operand "Q" was not defined
+error [line 14]: label operand "X" was not defined
+error [line 16]: label operand "Y" was not defined
+error [line 22]: label "Q" was ignored due to the defenition in an .extern or .entry line
+error [line 24]: label "X" was ignored due to the defenition in an .extern or .entry line
+error [line 26]: label "Y" was ignored due to the defenition in an .extern or .entry line
+could not compile the Assembly file: "badpath-pass2.as"
