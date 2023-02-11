@@ -1,7 +1,7 @@
 # MMN14 - Assembler Simulation
 Welcome to my final project of the course Systems Programming Lab in the Open University
 
-Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (bobject) files.
+Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (object) files.
 
 # Commands:
 * The available commands are:
@@ -17,5 +17,3 @@ Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (bobject)
 
 Use the makefile to compile the project and run with:
 > main > [.as file]
-
-By Uri K.H and Lihi B.H.
