@@ -1,7 +1,9 @@
 # MMN14 - Assembler Simulation
 Welcome to my final project of the course Systems Programming Lab in the Open University
 
-Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (object) files.
+* This project simulate the first stage of the assembling process.
+  The output files relate to the next specified assembly language and for a computer with address space of 4096.
+* Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (object) files.
 
 # Commands:
 * The available commands are:
@@ -13,7 +15,7 @@ Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (object) 
 
 # Notes:
 * usage of labels is in the usual format
-* before using a number first use: #
+* prefix for numberical values is: #
 
 Use the makefile to compile the project and run with:
 > main > [.as file]
