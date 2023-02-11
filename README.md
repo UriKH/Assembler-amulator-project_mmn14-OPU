@@ -5,20 +5,17 @@ Compiles .as (assembly) files to .ent (entries), .ext (externals), .ob (bobject)
 
 # Commands:
 * The available commands are:
-mov, cmp, add, lea, not, clr, inc, dec, jmp, bne, jsr, red, prn, rts, stop
-
+  mov, cmp, add, lea, not, clr, inc, dec, jmp, bne, jsr, red, prn, rts, stop
 * saved words:
-.data, .string, .extern, .entry
-
+  .data, .string, .extern, .entry
 * Available registers:
-r0, r1, r2, r3, r4, r5, r6
+  r0, r1, r2, r3, r4, r5, r6
 
-#Notes:
+# Notes:
 * usage of labels is in the usual format
-* before using a number first use: >#
+* before using a number first use: #
 
 Use the makefile to compile the project and run with:
 > main > [.as file]
-
 
 By Uri K.H and Lihi B.H.
