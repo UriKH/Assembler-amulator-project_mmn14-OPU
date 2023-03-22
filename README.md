@@ -1,5 +1,5 @@
 # MMN14 - Assembler Simulation
-Welcome to my final project of the course Systems Programming Lab in the Open University
+Welcome to my final project of the course Systems Programming Lab in the Open University (final grade 100)
 
 * This project simulate the first stage of the assembling process.
   The output files relate to the next specified assembly language and for a computer with address space of 4096.
